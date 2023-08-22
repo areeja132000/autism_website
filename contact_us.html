@@ -11,29 +11,31 @@
   </head>
   <body>
 
-    <section class="header">
-      <nav>
-        <a href="index.html"><img src="images/placeholder_logo.jpg"></a>
-        <div class="nav-links">
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about_us.html">OUR TEAM</a></li>
-            <li><a href="contact_us.html">CONTACT US</a></li>
-          </ul>
+    <div class="all">
+      <section class="header">
+        <nav>
+          <a href="index.html"><img src="images/placeholder_logo.jpg"></a>
+          <div class="nav-links">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about_us.html">OUR TEAM</a></li>
+              <li><a href="contact_us.html">CONTACT US</a></li>
+            </ul>
+          </div>
+          </a>
+        </nav>
+        <div class="form-container">
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Get In Touch</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="email" placeholder="Email" required>
+            <input type="text" id="phone number" placeholder="Phone Number (optional)">
+            <textarea id="message" rows="4" placeholder="How Can We Help You"></textarea>
+            <button type="submit">Send</button>
+          </form>
         </div>
-        </a>
-      </nav>
-      <div class="form-container">
-        <form onsubmit="sendEmail(); reset(); return false;">
-          <h3>Get In Touch</h3>
-          <input type="text" id="name" placeholder="Your Name" required>
-          <input type="text" id="email" placeholder="Email" required>
-          <input type="text" id="phone number" placeholder="Phone Number (optional)">
-          <textarea id="message" rows="4" placeholder="How Can We Help You"></textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section class="footer">
       <h4>About Us</h4>

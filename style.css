@@ -1,6 +1,6 @@
 :root {
   --dark_brown: #2c1d00;
-  --lightest_blue: #d6e9f7;
+  --lightest_blue: #d8ebf6;
   --darkest_blue: #072438;
   --second_darkest_blue: #6fafd6;
   --light_grey: #ffe1da;
@@ -12,11 +12,18 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+.all {
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(120, 124, 128, 0.73), rgba(120, 124, 128, 0.73)),
+  url('images/children_playing.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(222, 225, 227, 0.73), rgba(222, 225, 227, 0.73)),
-    url('images/children_playing.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
@@ -68,7 +75,7 @@ nav img {
 .text-box p {
   margin: 10px 0px 10px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--darkest_blue);
 }
 
@@ -92,8 +99,6 @@ nav img {
 .information {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(222, 225, 227, 0.73), rgba(222, 225, 227, 0.73)),
-    url('images/children_playing2.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
