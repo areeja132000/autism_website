@@ -79,23 +79,6 @@ nav img {
   color: var(--darkest_blue);
 }
 
-.services {
-  width: 100%;
-  height: 90vh;
-  margin: auto;
-  text-align: center;
-  padding-top: 60px;
-  background-color: var(--lightest_blue);
-}
-
-.services h1 {
-  color: var(--darkest_blue);
-}
-
-.service-col h3, .service-col p {
-  color: var(--darkest_blue);
-}
-
 .information {
   min-height: 100vh;
   width: 100%;
@@ -110,15 +93,69 @@ nav img {
   justify-content: space-between;
 }
 
-.service-col {
+.testimonials {
+  width: 100%;
+  height: 90vh;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+  background-color: var(--lightest_blue);
+}
+
+.testimonials-col {
   flex-basis: 31%;
-  background: var(--light_grey);
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 16px;
+  padding: 0px 30px;
   box-sizing: border-box;
   /*border-style: outset;
   border-color: rgb(199, 161, 133);*/
+}
+
+.testimonials-col h1, .testimonials-col p {
+  font-style: italic;
+  line-height: 2;
+}
+
+.testimonials-col h3 {
+  padding: 30px 30px;
+  font-style: italic;
+  text-align: right;
+}
+
+.row2 {
+  margin: 4%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.services {
+  width: 100%;
+  height: 140vh;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.service-col {
+  flex-basis: 48%;
+  width: 60vh;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: var(--light_grey);
+  /*border-style: outset;
+  border-color: rgb(199, 161, 133);*/
+}
+
+.services h1 {
+  color: var(--darkest_blue);
+}
+
+.service-col h3 {
+  color: var(--darkest_blue);
+  padding: 0px 20px 20px 20px;
+}
+
+.service-col p {
+  color: var(--darkest_blue);
+  line-height: 2;
 }
 
 .form-container {
@@ -137,7 +174,6 @@ form {
   padding: 2vw 4vw;
   width: 90%;
   max-width: 600px;
-  border-radius: 10px;
 }
 
 form h3 {
