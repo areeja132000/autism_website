@@ -49,6 +49,7 @@ nav {
 
 nav img {
   width: 120px;
+  /*Height is around 50px*/
 }
 
 .nav-links {
@@ -308,7 +309,7 @@ form button {
 
 .supervisor {
   margin: 20px;
-  padding: 0px 300px 30px 300px;
+  margin: 0px 300px 30px 300px;
 }
 
 .supervisor .supervisor_img {
