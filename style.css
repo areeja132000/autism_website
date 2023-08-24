@@ -2,7 +2,7 @@
   --dark_brown: #2c1d00;
   --lightest: rgb(237, 224, 195);
   --darkest: #3c1518;
-  --second_darkest: #a44200;
+  --second_darkest: #a8663a;
   --second_lightest: #edd3c8;
   --light_grey: #ffe1da;
 
@@ -30,6 +30,15 @@
   background-size: cover;
   position: relative;
 }
+
+.header2{
+  min-height: 460vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 nav {
   display: flex;
   padding: 0% 1%;
@@ -58,7 +67,7 @@ nav img {
   color: var(--darkest);
   text-decoration: none;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .text-box {
@@ -78,7 +87,7 @@ nav img {
 .text-box p {
   margin: 10px 0px 10px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--darkest);
 }
 
@@ -113,16 +122,24 @@ nav img {
   border-color: rgb(199, 161, 133);*/
 }
 
-.testimonials-col h1, .testimonials-col p {
+.testimonials-col p {
   font-style: italic;
   line-height: 2;
-  font-weight: 500;
+  font-weight: 700;
+  color: var(--darkest);
+}
+
+.testimonials h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--darkest);
 }
 
 .testimonials-col h3 {
   padding: 30px 30px;
   font-style: italic;
   text-align: right;
+  color: var(--darkest);
 }
 
 .row2 {
@@ -133,7 +150,7 @@ nav img {
 
 .services {
   width: 100%;
-  height: 140vh;
+  height: 150vh;
   text-align: center;
   padding-top: 70px;
 }
@@ -150,6 +167,8 @@ nav img {
 
 .services h1 {
   color: var(--darkest);
+  font-size: 30px;
+  margin-bottom: 60px;
 }
 
 .service-col h3 {
@@ -160,7 +179,7 @@ nav img {
 .service-col p {
   color: var(--darkest);
   line-height: 2;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .form-container {
@@ -184,6 +203,7 @@ form {
 form h3 {
   font-weight: 900;
   margin-bottom: 20px;
+  color: var(--darkest);
 }
 
 form input, form textarea {
@@ -219,11 +239,13 @@ form button {
 .footer h4 {
   margin-bottom: 10px;
   font-weight: 900;
+  color: var(--darkest);
 }
 
 .footer p {
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 700;
+  color: var(--darkest);
 }
 
 .icons i{
@@ -231,6 +253,81 @@ form button {
   width: 20px;
   height: 20px;
 }
+
+.team_container {
+  margin: 20px 40px;
+}
+
+.row1, .row2, .row3{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+
+.heading {
+  font-size: 60px;
+  color: var(--darkest);
+}
+
+.profile {
+  flex-basis: 48%;
+  margin: 20px;
+}
+
+.profile .profile_img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  transition: 400ms;
+}
+
+.profile:hover .profile_img {
+  filter: grayscale(0%);
+}
+
+.username {
+  color: var(--darkest);
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.profile p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--darkest);
+  margin-top: 20px;
+}
+
+.supervisor p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--darkest);
+  margin-top: 20px;
+}
+
+.supervisor {
+  margin: 20px;
+  padding: 0px 300px 30px 300px;
+}
+
+.supervisor .supervisor_img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  transition: 400ms;
+}
+
+.supervisor:hover .supervisor_img {
+  filter: grayscale(0%);
+}
+
+.heading2 {
+  font-size: 40px;
+  color: var(--darkest);
+}
+
 /*@media (max-width: 700px) {
 
   ADD CODE FOR DIFFERENT SIZES LATER
