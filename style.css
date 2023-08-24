@@ -89,6 +89,7 @@ nav img {
   margin: 10px 0px 10px;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 40px;
   color: var(--darkest);
 }
 
@@ -144,6 +145,12 @@ nav img {
 
 .stars img {
   width: 170px;
+  margin-bottom: 10px;
+  /*Height is around 50px*/
+}
+
+.therapies img {
+  height: 100px;
   margin-bottom: 10px;
   /*Height is around 50px*/
 }
@@ -237,6 +244,24 @@ form button {
   width: 150px;
   margin: 20px auto 0;
   border-radius: 30px;
+  outline-style: solid;
+  outline-color: var(--darkest);
+}
+
+.contactUsButton {
+  padding: 15px;
+  color: var(--darkest);
+  font-size: 25px;
+  font-weight: 700;
+  background-color: transparent;
+  outline-style: solid;
+  outline-color: var(--darkest);
+  transition: 400ms;
+  border-radius: 30px;
+}
+
+.contactUsButton:hover {
+  background-color: var(--lightest);
 }
 
 .footer {
@@ -336,6 +361,7 @@ form button {
 
 .heading2 {
   font-size: 40px;
+  margin-bottom: 30px;
   color: var(--darkest);
 }
 
