@@ -48,6 +48,7 @@ nav {
   padding: 0% 1%;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--lightest);
   /*background-color: var(--lightest);*/
 }
 
@@ -271,6 +272,7 @@ form button {
 .footer {
   padding-top: 10px;
   /*background-color: var(--lightest);*/
+  background-color: var(--lightest);
   text-align: center;
   align-items: center;
   justify-content: center;
