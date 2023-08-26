@@ -107,15 +107,12 @@ nav img {
 }
 
 .row {
-  margin: 2%;
   display: flex;
   justify-content: space-between;
 }
 
 .testimonials {
   width: 100%;
-  height: 93vh;
-  margin: auto;
   text-align: center;
   padding-top: 70px;
   background-color: var(--lightest);
@@ -123,6 +120,7 @@ nav img {
 
 .testimonials-col {
   flex-basis: 31%;
+  margin: 30px 0px;
   padding: 0px 30px;
   box-sizing: border-box;
   /*border-style: outset;
@@ -161,25 +159,23 @@ nav img {
 }
 
 .row2 {
-  margin: 4%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 0px 60px;
 }
 
 .services {
   width: 100%;
-  height: 155vh;
   text-align: center;
-  padding-top: 70px;
+  margin: 50px 0px;
 }
 
 .service-col {
   flex-basis: 47%;
-  width: 60vh;
   padding: 40px;
   box-sizing: border-box;
   background-color: var(--second_lightest);
-  margin-bottom: 20px;
+  margin: 20px;
   /*border-style: outset;
   border-color: rgb(199, 161, 133);*/
 }
@@ -191,7 +187,7 @@ nav img {
 .services h1 {
   color: var(--darkest);
   font-size: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .service-col h3 {
@@ -300,12 +296,6 @@ form button {
   margin: 20px 40px;
 }
 
-.row1, .row2, .row3{
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 80px;
-}
-
 .heading {
   font-size: 60px;
   color: var(--darkest);
@@ -372,9 +362,35 @@ form button {
 }
 
 
-/*@media (max-width: 700px) {
+@media(max-width: 700px) {
+  .text-box h1 {
+    font-size: 20px;
+  }
 
-  ADD CODE FOR DIFFERENT SIZES LATER
+  .nav-links ul li {
+    display: block;
+    padding: 8px 12px;
+  }
 
-}*/
+  .nav-links {
+    position: absolute;
+    background: var(--lightest);
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row2 {
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+
+}
 
