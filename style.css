@@ -349,7 +349,7 @@ form button {
   color: var(--darkest);
 }
 
-@media(max-width: 768px) {
+@media(max-width: 600px) {
 
   .row {
     flex-direction: column;
