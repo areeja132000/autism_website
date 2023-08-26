@@ -418,7 +418,6 @@ form button {
 
   .profile {
     margin: 20px 0px;
-    padding: 0px 15px;
     filter: grayscale(0%);
   }
   
@@ -430,7 +429,6 @@ form button {
 
   .supervisor {
     margin: 20px 0px;
-    padding: 0px 15px;
     filter: grayscale(0%);
   }
   
@@ -446,7 +444,7 @@ form button {
 
 }
 
-@media(max-height: 360px){
+@media(max-height:480px){
 
   nav {
     flex-direction: column;
