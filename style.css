@@ -365,12 +365,29 @@ form button {
     margin: 0px 10px;
   }
 
-  .text-box h1 {
+  .text-box h1, .team_container h1, .testimonials h1, .services h1 {
     font-size: 30px;
   }
 
-  .text-box p {
+  .team_container h2 {
+    font-size: 20px;
+  }
+
+  .team_container h3, .testimonials h3, .services h3, .form-container h3 {
+    font-size: 20px;
+  }
+
+  .footer h4 {
+    font-size: 20px;
+  }
+
+  .text-box p , .testimonials p, .services p, .footer p, .team_container p {
     font-size: 15px;
+  }
+
+  .contactUsButton {
+    font-size: 15px;
+    padding: 7px;
   }
 
   .nav-links {
@@ -385,31 +402,6 @@ form button {
 
   .nav-links ul li {
     padding: 0px 5px;
-  }
-
-
-  .contactUsButton {
-    font-size: 20px;
-  }
-
-  .team_container h1 {
-    font-size: 30px;
-  }
-
-  .team_container h2 {
-    font-size: 20px;
-  }
-
-  .team_container h3 {
-    font-size: 20px;
-  }
-
-  .text-box p {
-    margin-bottom: 20px;
-  }
-
-  .contactUsButton {
-    padding: 7px;
   }
 
   .profile {
@@ -455,12 +447,29 @@ form button {
     margin: 0px 10px;
   }
 
-  .text-box h1 {
+  .text-box h1, .team_container h1, .testimonials h1, .services h1 {
     font-size: 20px;
   }
 
-  .text-box p {
+  .team_container h2 {
+    font-size: 15px;
+  }
+
+  .team_container h3, .testimonials h3, .services h3, .form-container h3 {
+    font-size: 15px;
+  }
+
+  .footer h4 {
+    font-size: 15px;
+  }
+
+  .text-box p , .testimonials p, .services p, .footer p, .team_container p {
     font-size: 10px;
+  }
+
+  .contactUsButton {
+    font-size: 15px;
+    padding: 7px;
   }
 
   .nav-links {
@@ -477,33 +486,12 @@ form button {
     padding: 0px 5px;
   }
 
-
-  .contactUsButton {
-    font-size: 15px;
-  }
-
-  .team_container h1 {
-    font-size: 20px;
-  }
-
-  .team_container h2 {
-    font-size: 15px;
-  }
-
-  .team_container h3 {
-    font-size: 15px;
-  }
-
   .text-box {
     margin-top: 50px;
   }
 
   .text-box p {
     margin-bottom: 20px;
-  }
-
-  .contactUsButton {
-    padding: 7px;
   }
 
   .profile {
@@ -533,6 +521,4 @@ form button {
   .team_container {
     margin: 10px 0px;
   }
-
-
 }
