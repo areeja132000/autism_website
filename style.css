@@ -237,6 +237,10 @@ form button {
   outline-color: var(--darkest);
 }
 
+form button:hover {
+  background-color: var(--lightest);
+}
+
 .contactUsButton {
   padding: 15px;
   color: var(--darkest);
@@ -381,13 +385,18 @@ form button {
     font-size: 20px;
   }
 
-  .text-box p , .testimonials p, .services p, .footer p, .team_container p {
+  .text-box p , .testimonials p, .services p, .footer p, .team_container p, form input, form textarea {
     font-size: 15px;
   }
 
   .contactUsButton {
-    font-size: 15px;
+    font-size: 20px;
     padding: 7px;
+  }
+
+  form button {
+    font-size: 20px;
+    padding: 10px;
   }
 
   .nav-links {
@@ -432,7 +441,7 @@ form button {
 
 }
 
-@media(max-height:480px){
+@media(max-height:570px){
 
   nav {
     flex-direction: column;
@@ -463,13 +472,18 @@ form button {
     font-size: 15px;
   }
 
-  .text-box p , .testimonials p, .services p, .footer p, .team_container p {
+  .text-box p , .testimonials p, .services p, .footer p, .team_container p, form input, form textarea {
     font-size: 10px;
   }
 
   .contactUsButton {
     font-size: 15px;
     padding: 7px;
+  }
+
+  form button {
+    font-size: 15px;
+    padding: 10px;
   }
 
   .nav-links {
@@ -521,4 +535,96 @@ form button {
   .team_container {
     margin: 10px 0px;
   }
+}
+
+@media(max-width: 320px) and (max-height: 320px) {
+
+  nav {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row2 {
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+
+  .text-box h1, .team_container h1, .testimonials h1, .services h1 {
+    font-size: 15px;
+  }
+
+  .team_container h2 {
+    font-size: 15px;
+  }
+
+  .team_container h3, .testimonials h3, .services h3, .form-container h3 {
+    font-size: 15px;
+  }
+
+  .footer h4 {
+    font-size: 15px;
+  }
+
+  .text-box p , .testimonials p, .services p, .footer p, .team_container p, form input, form textarea {
+    font-size: 10px;
+  }
+
+  .text-box p {
+    margin-bottom: 5px;
+  }
+
+  .contactUsButton {
+    font-size: 10px;
+    padding: 3px;
+    margin-top: 0;
+  }
+
+  form button {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .nav-links {
+    margin-bottom: 10px;
+    margin-top:10px;
+  }
+
+  .nav-links ul li a {
+    font-weight: 700;
+    font-size: 10px;
+  }
+
+  .nav-links ul li {
+    padding: 0px 5px;
+  }
+
+  .profile {
+    margin: 20px 0px;
+    filter: grayscale(0%);
+  }
+  
+  .profile .profile_img {
+    height: 200px;
+    width: 200px;
+    filter: grayscale(0%);
+  }
+
+  .supervisor {
+    margin: 20px 0px;
+    filter: grayscale(0%);
+  }
+  
+  .supervisor .supervisor_img {
+    height: 200px;
+    width: 200px;
+    filter: grayscale(0%);
+  }
+
+  .team_container {
+    margin: 10px 0px;
+  }
+
 }
